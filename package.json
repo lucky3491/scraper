@@ -1,0 +1,20 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scrapes Amazon and Walmart product details for a list of SKUs.",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/scraper.js",
+    "dev": "tsx src/scraper.ts"
+  },
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "playwright": "^1.54.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

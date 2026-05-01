@@ -1,0 +1,7 @@
+{
+  "skus": [
+    { "Type": "Amazon", "SKU": "B0CT4BB651" },
+    { "Type": "Amazon", "SKU": "B01LR5S6HK" },
+    { "Type": "Walmart", "SKU": "5326288985" }
+  ]
+}
